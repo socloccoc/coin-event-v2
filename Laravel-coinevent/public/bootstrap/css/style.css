@@ -1,0 +1,194 @@
+
+header {
+    height: 70px;
+    border-bottom: 1px solid #cccccc;
+}
+
+button {
+    outline-style: none;
+    border: 0 !important;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+.container {
+    width: 90%;
+}
+
+.container .datetime {
+    height: 30px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container .datetime button{
+    height: 28px;
+    width: 50px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.container .datetime .pre-month{
+    background-image: url("../../images/pre.png");
+}
+
+.container .datetime .next-month{
+    background-image: url("../../images/next.png");
+}
+
+.datetime .current-month {
+    text-align: center;
+    color: #707070;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.week {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.week .dayofweek {
+    width: 14.2857%;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #cccccc;
+    border-top: none;
+}
+
+.events.col-lg-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.events .event-item {
+    width: 14.2857%;
+    height: auto;
+    border: 1px solid #cccccc;
+    float: left;
+    border-top: none;
+}
+
+.events .event-item .coin-name{
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.events .event-item .coin-image{
+    text-align: center;
+}
+
+.events .event-item .coin-image img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.events .event-item .category{
+    background: greenyellow;
+    text-align: center;
+    padding: 4px;
+}
+
+/*---------Side-bar---------*/
+.side-bar{
+    margin-top: 30px;
+    border: 1px solid #cccccc;
+    height: 590px;
+}
+.side-bar .header{
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    height: 45px;
+    line-height: 45px;
+    font-size: 30px;
+}
+
+.side-bar .search{
+    margin-top: 9px;
+}
+.side-bar .search label{
+    line-height: 37px;
+}
+
+.side-bar .important-left{
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.side-bar .important-left div{
+    height: 400px;
+    background-image: url("../../images/importon-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.side-bar h4{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.search label{
+    padding-right: 0px;
+}
+.search div{
+    padding-left: 0px;
+}
+/*-----col-lg-10 search-button-----*/
+.search-button{
+    padding: 0px;
+    padding-right: 10px;
+    height: auto;
+}
+
+.search-item .level{
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.search-item .category{
+    height: 80px;
+    opacity: 0.6;
+    padding: 0px 5px;
+}
+
+.search-button .category .col-lg-4{
+    padding: 0px 5px;
+}
+
+.search-button .category button{
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 23px;
+    font-size: 2vmin;
+    border: none;
+}
+
+.important-1 .level,.important-1 .category{
+    background: #FF0000;
+}
+
+.important-2 .level,.important-2 .category{
+    background: #FFBB00;
+}
+
+.important-3 .level,.important-3 .category{
+    background: #FFFF00;
+}
+
+.important-4 .level,.important-4 .category{
+    background: #E1FF44;
+}
+
+.important-5 .level,.important-5 .category{
+    background: #C5FFFD;
+}

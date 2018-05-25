@@ -1,0 +1,438 @@
+
+button {
+    outline-style: none;
+    border: 0 !important;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+body{
+    background-color: #f3f3f3;
+    font-size: 12px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.left-sidebar{
+    padding: 0px;
+}
+
+.search,.search-level{
+    height: auto;
+    background-clip: content-box;
+    padding: 0px;
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+}
+
+.search-level{
+    margin-top: 20px;
+}
+
+
+.search .search-box{
+    margin-top: 20px;
+}
+
+.search-level .header{
+    margin-top: 10px;
+}
+
+
+.search .search-box .label-search-box, .search-level .header .label-search-box{
+    padding-left: 5px;
+    padding-right: 0px;
+    font-size: 15px;
+}
+
+.search .search-box .clear-search-box{
+    top:-10px;
+    padding: 0px;
+}
+
+.search-level .header .clear-search-box{
+    padding: 0px;
+    top: -5px;
+}
+
+.search .search-box .clear-search-box button, .search-level .header .clear-search-box button{
+    background-color: #f3f3f3;
+    border: 1px solid #ccc !important;
+    font-size: 12px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.search-level .body,.level-item{
+    padding: 0px;
+}
+
+.item-button{
+    padding: 5px 0px;
+}
+
+.search-level .body .level-item .item-label{
+    font-weight: bold;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+.search-level .body .level-item .item-button div{
+    padding: 5px;
+    text-align: center;
+}
+
+.search-level .body .level-item .item-button div button{
+    background-color: #fff;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 6px;
+    height:37px;
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+}
+
+.search-level .body .level-item .level-5{
+    background-color: #cc0000;
+}
+
+.search-level .body .level-item .item-button-level-5{
+    background-color: #F4CCCC;
+}
+
+.search-level .body .level-item .level-4{
+    background-color: #ff9900;
+}
+
+.search-level .body .level-item .item-button-level-4{
+    background-color: #F5ECCD;
+}
+
+.search-level .body .level-item .level-3{
+    background-color: #F1C232;
+}
+
+.search-level .body .level-item .item-button-level-3{
+    background-color: #FFF2CC;
+}
+
+.search-level .body .level-item .level-2{
+    background-color: #93C47D;
+}
+
+.search-level .body .level-item .item-button-level-2{
+    background-color: #D9EAD3;
+}
+
+.search-level .body .level-item .level-1{
+    background-color: #3C78D8;
+}
+
+.search-level .body .level-item .item-button-level-1{
+    background-color: #C9DAF8;
+}
+/*---------Calendar---------*/
+.calendar{
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+/*---------Calendar-Header---------*/
+.calendar .header{
+    height: 55px;
+    background-color: #0B5394;
+    color: #fff;
+}
+
+.calendar .header i{
+    cursor: pointer;
+}
+
+.calendar .header .pre-year{
+    margin-left: 20px;
+}
+
+.calendar .header .pre-year i, .calendar .header .next-year i{
+    line-height: 55px;
+}
+
+.calendar .header .pre-year i, .calendar .header .next-year i{
+    font-size: 23px
+}
+
+.calendar .header div{
+    display: inline;
+}
+
+.calendar .header .pre-year i:nth-child(2){
+    margin-left: -17px;
+}
+
+.calendar .header .next-year i:nth-child(1){
+    margin-right: -17px;
+}
+
+.calendar .header .pre-month i, .calendar .header .next-month i{
+    font-size: 20px
+}
+
+.calendar .header .pre-month{
+    margin-left: 10px;
+}
+
+.calendar .header .pre-month i{
+    line-height: 57px;
+    position: absolute;
+}
+
+.calendar .header .next-month{
+    margin-right: 20px;
+
+}
+
+.calendar .header .next-month i{
+    position: absolute;
+    line-height: 57px;
+}
+
+.calendar .header .current-date{
+    font-size: 20px;
+    line-height: 55px;
+    margin: 0px 25px;
+    position: relative;
+    left: 10px;
+    top: -4px;
+}
+
+.calendar .header .search-mobile{
+    display: none;
+}
+/*---------Calendar-body---------*/
+
+.calendar .body .event{
+    padding: 0px;
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+}
+
+.calendar .body .event .event-item{
+    width: 14.2857%;
+    float: left;
+    border: 1px solid #ccc;
+    height: 104px;
+    position: relative;
+}
+
+.calendar .body .event .event-item .day{
+    font-size: 12px;
+    width: 15px;
+    text-align: center;
+    height: auto;
+    color: rgba(71, 71, 71, 0.84);
+    font-weight: 700;
+    position: absolute;
+    left: 4px;
+    top: 3px;
+
+}
+
+/*----------------------Modal-----------------------*/
+.modal-header{
+    background-color: #0B5394;
+    color: #fff;
+}
+
+.modal-header .modal-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-header .close{
+    opacity: 1;
+    color: #fff;
+}
+
+.modal-body .event-item-day{
+    position: relative;
+}
+
+.modal-body .event-item-day hr{
+    border-top: 3px solid #f5c827;
+    margin: 0px !important;
+}
+
+.modal-body .event-item-day .event-cat{
+    background-color: #f5c827;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.modal-body .event-item-day .content-event{
+    height: 80px;
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+}
+
+.modal-body .event-item-day .content-event .coin-icon{
+    line-height: 80px;
+}
+
+.modal-body .event-item-day .content-event img{
+    max-width: 60px;
+}
+
+.modal-body .event-item-day .content-event .coin-name{
+    font-size: 20px;
+    margin-top: 14px;
+    padding-right: 0px;
+    border-right: 3px solid #cccccc;
+}
+
+.modal-body .event-item-day .content-event .coin-name label{
+  margin-bottom: 0px;
+}
+
+.modal-body .event-item-day .content-event .coin-description{
+    line-height: 80px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.modal-body .event-item-day .content-event .cart{
+     padding: 0px;
+}
+
+.modal-body .event-item-day .content-event .cart button{
+    height: 55px;
+    margin-top: 13px;
+    width: 130px;
+    font-size: 20px;
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    border-radius: 6px;
+}
+
+.modal-body .event-item-day .content-event .cart i{
+    font-size: 23px;
+}
+
+
+
+.modal-body .event-item-day .event-detail{
+    height: 100px;
+    background: plum;
+    top: -80px;
+    display: none;
+}
+
+@media only screen and (max-width: 479px){
+    .calendar .header .pre-year{
+        margin-left: 0px;
+    }
+
+    .calendar .header .pre-year i, .calendar .header .next-year i{
+        line-height: 55px;
+    }
+
+    .calendar .header .pre-year i, .calendar .header .next-year i{
+        font-size: 20px
+    }
+
+    .calendar .header div{
+        display: inline;
+    }
+
+    .calendar .header .pre-year i:nth-child(2){
+        margin-left: -15px;
+    }
+
+    .calendar .header .next-year i:nth-child(1){
+        margin-right: -15px;
+    }
+
+    .calendar .header .pre-month i, .calendar .header .next-month i{
+        font-size: 20px
+    }
+
+    .calendar .header .pre-month{
+        margin-left: 5px;
+    }
+
+    .calendar .header .pre-month i{
+        line-height: 57px;
+        position: absolute;
+    }
+
+    .calendar .header .next-month{
+        margin-right: 17px;
+        margin-left: 6px;
+    }
+
+    .calendar .header .next-month i{
+        position: absolute;
+        line-height: 57px;
+    }
+
+    .calendar .header .current-date{
+        font-size: 15px;
+        line-height: 55px;
+        margin: 0px 15px;
+        position: relative;
+        top: -4px;
+    }
+
+    .calendar .header .search-mobile{
+        font-size: 20px;
+        margin-left: 15px;
+        top: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .hidden_m{
+        display: none;
+    }
+
+    /*---------Calendar---------*/
+    .calendar{
+        padding: 0px 15px;
+    }
+
+    /*---------Calendar-Header---------*/
+    .calendar .header{
+        text-align: center;
+    }
+
+    .search-level{
+        margin-top: 0px;
+    }
+
+    .calendar .header .search-mobile{
+        display: inline-block !important;
+        font-size: 20px;
+        margin-left: 15px;
+        top: 12px;
+    }
+
+
+
+
+
+
+}
