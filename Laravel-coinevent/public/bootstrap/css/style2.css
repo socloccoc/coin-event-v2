@@ -261,6 +261,10 @@ body{
 
 .modal-body .event-item-day{
     position: relative;
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    margin-top: 15px;
 }
 
 .modal-body .event-item-day hr{
@@ -281,9 +285,7 @@ body{
 
 .modal-body .event-item-day .content-event{
     height: 80px;
-    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
-    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+
 }
 
 .modal-body .event-item-day .content-event .coin-icon{
@@ -331,14 +333,49 @@ body{
     font-size: 23px;
 }
 
+.modal-body .event-detail{
+    height: 300px;
+    background: #f3f3f3;
+    top: 15px;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+}
 
+.modal-body .event-detail .event-detail-top{
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+}
 
-.modal-body .event-item-day .event-detail{
-    height: 100px;
-    background: plum;
-    top: -80px;
+.modal-body .event-detail img{
+    max-width: 50px;
+}
+
+.modal-body .event-detail .coin-name{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.modal-body .event-detail button{
+    height: 50px;
+    width: 120px;
+    font-size: 18px;
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.6);
+    border-radius: 6px;
+}
+
+.mobile-clear{
     display: none;
 }
+
 
 @media only screen and (max-width: 479px){
     .calendar .header .pre-year{
@@ -402,6 +439,7 @@ body{
         top: 12px;
     }
 
+
 }
 
 @media only screen and (max-width: 768px){
@@ -430,9 +468,41 @@ body{
         top: 12px;
     }
 
+    .mobile-clear{
+        display: block;
+    }
+
+    .modal-body .event-item-day .content-event{
+        margin-top: 30px;
+        height: 165px;
+    }
+
+    .modal-body .event-item-day .coin-description{
+        line-height: 30px !important;
+        float: right;
+    }
+
+    .modal-body .event-item-day .content-event .cart{
+        text-align: center;
+    }
+
+}
 
 
+/*-----Use for tablet----*/
+@media (min-device-width:769px) and (max-device-width:1023px){
+    .modal-body .event-item-day .content-event{
+        margin-top: 30px;
+    }
 
+    .modal-body .event-item-day .content-event img{
+        max-width: 45px;
+    }
 
-
+    .modal-body .event-item-day .content-event .coin-name{
+        font-size: 14px;
+        margin-top: 18px;
+        padding-right: 0px;
+        border-right: 3px solid #cccccc;
+    }
 }

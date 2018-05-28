@@ -173,6 +173,26 @@
                                         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                                     </div>
                                     <div class="modal-body">
+
+                                        <div class="event-detail col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 event-detail-top">
+                                                <div class="col-md-4 col-sm-4 col-xs-4 coin-icon">
+                                                    <img src="images/btc_icon.png">
+                                                </div>
+                                                <div class="col-md-8 col-sm-8 col-xs-8 coin-name">
+                                                    Bitcoin (BTC)
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <button><i class="fas fa-cart-arrow-down"></i> Daidv</button>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <button><i class="fas fa-chart-line"></i> Daidv</button>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                         <div class="event-item-day">
                                             <hr>
                                             <div class="event-cat col-md-2 col-sm-3 col-xs-4">
@@ -186,19 +206,69 @@
                                                     <label>Bitcoin</label>
                                                     <label>(BTC)</label>
                                                 </div>
-                                                <div class="col-md-3 col-sm-3 col-xs-3 coin-description">
+                                                <div class="col-md-3 col-sm-3 col-xs-8 coin-description">
                                                     <a href="#">dangvandai</a>
                                                 </div>
-                                                <div class="col-md-2 col-sm-2 col-xs-2 cart">
+                                                <div class="col-xs-12 mobile-clear"></div>
+                                                <div class="col-md-2 col-sm-3 col-xs-6 cart">
                                                     <button><i class="fas fa-cart-arrow-down"></i> Daidv</button>
                                                 </div>
-                                                <div class="col-md-2 col-sm-2 col-xs-2 cart">
+                                                <div class="col-md-2 col-sm-3 col-xs-6 cart">
+                                                    <button><i class="fas fa-chart-line"></i> Daidv</button>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="event-item-day">
+                                            <hr>
+                                            <div class="event-cat col-md-2 col-sm-3 col-xs-4">
+                                                daidv
+                                            </div>
+                                            <div class="content-event">
+                                                <div class="col-md-1 col-sm-1 col-xs-4 coin-icon">
+                                                    <img src="images/btc_icon.png">
+                                                </div>
+                                                <div class="col-md-2 col-sm-2 col-xs-8 coin-name">
+                                                    <label>Bitcoin</label>
+                                                    <label>(BTC)</label>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-8 coin-description">
+                                                    <a href="#">dangvandai</a>
+                                                </div>
+                                                <div class="col-xs-12 mobile-clear"></div>
+                                                <div class="col-md-2 col-sm-3 col-xs-6 cart">
+                                                    <button><i class="fas fa-cart-arrow-down"></i> Daidv</button>
+                                                </div>
+                                                <div class="col-md-2 col-sm-3 col-xs-6 cart">
                                                     <button><i class="fas fa-chart-line"></i> Daidv</button>
                                                 </div>
                                             </div>
 
-                                            <div class="event-detail col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-
+                                        </div>
+                                        <div class="event-item-day">
+                                            <hr>
+                                            <div class="event-cat col-md-2 col-sm-3 col-xs-4">
+                                                daidv
+                                            </div>
+                                            <div class="content-event">
+                                                <div class="col-md-1 col-sm-1 col-xs-4 coin-icon">
+                                                    <img src="images/btc_icon.png">
+                                                </div>
+                                                <div class="col-md-2 col-sm-2 col-xs-8 coin-name">
+                                                    <label>Bitcoin</label>
+                                                    <label>(BTC)</label>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-8 coin-description">
+                                                    <a href="#">dangvandai</a>
+                                                </div>
+                                                <div class="col-xs-12 mobile-clear"></div>
+                                                <div class="col-md-2 col-sm-3 col-xs-6 cart">
+                                                    <button><i class="fas fa-cart-arrow-down"></i> Daidv</button>
+                                                </div>
+                                                <div class="col-md-2 col-sm-3 col-xs-6 cart">
+                                                    <button><i class="fas fa-chart-line"></i> Daidv</button>
+                                                </div>
                                             </div>
 
                                         </div>
